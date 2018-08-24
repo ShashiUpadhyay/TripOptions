@@ -8,40 +8,15 @@ import java.util.Date;
 public class Hotel {
 
     private String location;
-    private Date checkinDate;
-    private Date checkoutDate;
+    private String checkinDate;
+    private String checkoutDate;
     private Double price;
 
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
+    public Hotel(String location, String checkinDate, String checkoutDate, Double price) {
         this.location = location;
-    }
-
-    public Date getCheckinDate() {
-        return checkinDate;
-    }
-
-    public void setCheckinDate(Date checkinDate) {
         this.checkinDate = checkinDate;
-    }
-
-    public Date getCheckoutDate() {
-        return checkoutDate;
-    }
-
-    public void setCheckoutDate(Date checkoutDate) {
         this.checkoutDate = checkoutDate;
-    }
-
-    public Double getPrice() {
-        return price;
-    }
-
-    public void setPrice(Double price) {
         this.price = price;
     }
+
 }

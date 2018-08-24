@@ -11,43 +11,11 @@ public class Car {
     private String Category;
     private String Type;
 
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
+    public Car(String location, String pickUp, String dropOff, String category, String type) {
         this.location = location;
-    }
-
-    public String getPickUp() {
-        return pickUp;
-    }
-
-    public void setPickUp(String pickUp) {
         this.pickUp = pickUp;
-    }
-
-    public String getDropOff() {
-        return dropOff;
-    }
-
-    public void setDropOff(String dropOff) {
         this.dropOff = dropOff;
-    }
-
-    public String getCategory() {
-        return Category;
-    }
-
-    public void setCategory(String category) {
         Category = category;
-    }
-
-    public String getType() {
-        return Type;
-    }
-
-    public void setType(String type) {
         Type = type;
     }
 }
